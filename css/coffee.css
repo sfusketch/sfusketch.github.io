@@ -1,0 +1,110 @@
+#coffee * {
+  color: #603913; }
+#coffee .main-content__cover {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 46rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25%;
+  justify-content: center; }
+  #coffee .main-content__cover > * {
+    margin-bottom: 1.5rem; }
+  #coffee .main-content__cover > * ~ * {
+    margin-left: 4rem; }
+#coffee .header {
+  position: relative;
+  border: 2px solid #e3af68;
+  display: flex; }
+  #coffee .header .logo {
+    position: absolute;
+    max-width: 6rem;
+    top: -2.4rem;
+    left: .5rem;
+    transform: rotate(-4deg);
+    z-index: 10; }
+  #coffee .header .header__package-image {
+    position: relative;
+    display: inline-block;
+    min-width: 10rem;
+    height: 100%;
+    border-right: 2px solid #e3af68;
+    background-image: url("../img/coffee_assets/coffeeWaves_vertical@0,5x.jpg");
+    background-size: cover;
+    background-position: 50% 10%; }
+  #coffee .header .header__package-text {
+    padding: 1.5rem; }
+  #coffee .header .header__title {
+    line-height: 1.1; }
+  #coffee .header .header__subtitle {
+    font-style: italic;
+    color: #df9d5c;
+    letter-spacing: .06rem; }
+#coffee .the-peeps {
+  position: relative;
+  display: inline-block;
+  padding: 1.5rem;
+  border: 2px solid #e3af68; }
+#coffee .the-peeps__header {
+  margin-top: 0;
+  font-weight: bold; }
+#coffee #coffee-thing-cup {
+  position: absolute;
+  bottom: -.8rem;
+  right: .5rem;
+  transform: rotate(12deg);
+  width: 3rem; }
+#coffee .main-content__intro {
+  position: relative;
+  margin-top: 40%;
+  margin-bottom: 10rem;
+  padding: 4rem;
+  max-width: 34em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f7f1de; }
+  #coffee .main-content__intro p {
+    font-weight: bold;
+    line-height: 1.5; }
+#coffee #coffee-thing-drip {
+  width: 4.5rem;
+  position: absolute;
+  top: -7rem;
+  left: 4.4rem; }
+#coffee #coffee-thing-grind {
+  width: 4rem;
+  position: absolute;
+  bottom: -2.6rem;
+  right: 5rem; }
+#coffee .main-content__previews {
+  padding: 0 2rem 5rem; }
+#coffee .main-content__preview-page {
+  max-width: 40rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 18px 4px rgba(96, 57, 19, 0.25); }
+  #coffee .main-content__preview-page > img {
+    margin-bottom: -4px; }
+#coffee .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 34em;
+  border: 2px solid #e3af68;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+  text-align: center; }
+  #coffee .footer > * {
+    padding: .5rem 1.5rem;
+    margin: 0; }
+#coffee #coffee-thing-drip-2 {
+  width: 4rem; }
+#coffee .footer__middle {
+  padding-left: 10%;
+  padding-right: 10%;
+  border-left: 2px solid #e3af68;
+  border-right: 2px solid #e3af68; }
+
+/*# sourceMappingURL=coffee.css.map */

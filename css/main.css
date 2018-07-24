@@ -23,6 +23,13 @@ a {
     border-bottom: transparent;
     transition: all 200ms ease-in-out; }
 
+.logo {
+  max-width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.show-for-sr { display:  none; }
+
 .zine-button {
   display: inline-block;
   color: #333;
@@ -41,10 +48,15 @@ a {
       color: #fff;
       background-color: #000; }
   .zine-button.icecream {
-    border-color: #7c5943; }
+    border-color: #e24058; }
     .zine-button.icecream:hover, .zine-button.icecream:focus, .zine-button.icecream:active {
       color: #fff;
-      background-color: #7c5943; }
+      background-color: #e24058; }
+  .zine-button.coffee {
+    border-color: #c8813d; }
+    .zine-button.coffee:hover, .zine-button.coffee:focus, .zine-button.coffee:active {
+      color: #fff;
+      background-color: #c8813d; }
 
 .peeps-list {
   list-style: none;

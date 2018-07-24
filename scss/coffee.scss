@@ -1,0 +1,162 @@
+$darkblend: #603913;
+$lightblend: #c8813d;
+$orange: #df9d5c;
+$blonde: #e3af68;
+$raw: #f7f1de;
+
+#coffee {
+  // font-family:
+
+  * { color: $darkblend; }
+
+  .main-content__cover {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 46rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25%;
+    justify-content: center;
+
+    > * { margin-bottom: 1.5rem; }
+
+    > * ~ * { margin-left: 4rem; }
+  }
+
+  .header {
+    position: relative;
+    border: 2px solid $blonde;
+    display: flex;
+
+    .logo {
+      position: absolute;
+      max-width: 6rem;
+      top: -2.4rem;
+      left: .5rem;
+      // margin-left: -1rem;
+      transform: rotate(-4deg);
+      z-index: 10;
+    }
+
+    .header__package-image {
+      position: relative;
+      display: inline-block;
+      min-width: 10rem;
+      // width: 5rem;
+      height: 100%;
+      border-right: 2px solid $blonde;
+      background-image: url('../img/coffee_assets/coffeeWaves_vertical@0,5x.jpg');
+      background-size: cover;
+      background-position: 50% 10%;
+    }
+
+    .header__package-text {
+      padding: 1.5rem;
+    }
+
+    .header__title { 
+      // margin-top: 0; 
+      line-height: 1.1;
+    }
+    .header__subtitle {
+      font-style: italic;
+      color: $orange;
+      letter-spacing: .06rem;
+    }
+  }
+
+  .the-peeps {
+    position: relative;
+    display: inline-block;
+    padding: 1.5rem;
+    border: 2px solid $blonde;
+  }
+  .the-peeps__header {
+    margin-top: 0;
+    font-weight: bold;
+  }
+
+  #coffee-thing-cup {
+    position: absolute;
+    bottom: -.8rem;
+    right: .5rem;
+    transform: rotate(12deg);
+    width: 3rem;
+  }
+
+  .main-content__intro {
+    position: relative;
+    margin-top: 40%;
+    margin-bottom: 10rem;
+    padding: 4rem;
+    max-width: 34em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $raw;
+    // box-shadow: 0 4px 18px 4px rgba($darkblend, .15);
+
+    p { 
+      font-weight: bold; 
+      line-height: 1.5;
+    }
+  }
+
+  #coffee-thing-drip {
+    width: 4.5rem;
+    position: absolute;
+    top: -7rem;
+    left: 4.4rem;
+  }
+  #coffee-thing-grind {
+    width: 4rem;
+    position: absolute;
+    bottom: -2.6rem;
+    right: 5rem;
+  }
+
+  .main-content__previews {
+    padding: 0 2rem 5rem;
+  }
+
+  .main-content__preview-page {
+    max-width: 40rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 18px 4px rgba($darkblend, .25);
+
+    > img {
+      margin-bottom: -4px; // fix some weird thing in the browser adding a white edge
+    }
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 34em;
+    border: 2px solid $blonde;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+    text-align: center;
+
+    > * {
+      padding: .5rem 1.5rem;
+      // height: 100%;
+      margin: 0;
+    }
+  }
+
+  #coffee-thing-drip-2 {
+    width: 4rem;
+  }
+
+  .footer__middle {
+    padding-left: 10%;
+    padding-right: 10%;
+    border-left: 2px solid $blonde;
+    border-right: 2px solid $blonde;
+  }
+
+}
