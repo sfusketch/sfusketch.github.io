@@ -114,22 +114,6 @@ $raw: #f7f1de;
     right: 5rem;
   }
 
-  .main-content__previews {
-    padding: 0 2rem 5rem;
-  }
-
-  .main-content__preview-page {
-    max-width: 40rem;
-    margin-bottom: 4rem;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 4px 18px 4px rgba($darkblend, .25);
-
-    > img {
-      margin-bottom: -4px; // fix some weird thing in the browser adding a white edge
-    }
-  }
-
   .footer {
     display: flex;
     align-items: center;
@@ -159,4 +143,21 @@ $raw: #f7f1de;
     border-right: 2px solid $blonde;
   }
 
+}
+
+
+.main-content__previews {
+  padding: 0 2rem 5rem;
+}
+
+.main-content__preview-page {
+  max-width: 40rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 18px 4px rgba($darkblend, .25);
+
+  > img {
+    margin-bottom: -4px; // fix some weird thing in the browser adding a white edge
+  }
 }

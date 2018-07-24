@@ -76,16 +76,6 @@
   position: absolute;
   bottom: -2.6rem;
   right: 5rem; }
-#coffee .main-content__previews {
-  padding: 0 2rem 5rem; }
-#coffee .main-content__preview-page {
-  max-width: 40rem;
-  margin-bottom: 4rem;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 4px 18px 4px rgba(96, 57, 19, 0.25); }
-  #coffee .main-content__preview-page > img {
-    margin-bottom: -4px; }
 #coffee .footer {
   display: flex;
   align-items: center;
@@ -106,5 +96,17 @@
   padding-right: 10%;
   border-left: 2px solid #e3af68;
   border-right: 2px solid #e3af68; }
+
+.main-content__previews {
+  padding: 0 2rem 5rem; }
+
+.main-content__preview-page {
+  max-width: 40rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 18px 4px rgba(96, 57, 19, 0.25); }
+  .main-content__preview-page > img {
+    margin-bottom: -4px; }
 
 /*# sourceMappingURL=coffee.css.map */

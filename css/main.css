@@ -30,6 +30,12 @@ a {
 
 .show-for-sr { display:  none; }
 
+.fill-browser-title {
+  height: 100vh;
+  /* width:  100vw; */
+  overflow-x: hidden;
+}
+
 .zine-button {
   display: inline-block;
   color: #333;
@@ -128,7 +134,9 @@ html {
 #icecream {
   background-image: url(../img/biscuit_castle_bg.jpg);
   background-size: 100% 100%;
-  width: 100vw;
+  background-repeat: no-repeat;
+  background-color: #f6eadc;
+  /* width: 100vw; */
   height: 100vh; }
   #icecream header {
     display: none; }
@@ -215,7 +223,7 @@ html {
 #icecream .footer {
   display: flex;
   align-items: flex-end;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   margin: 0 1.5rem 1rem 0; }
