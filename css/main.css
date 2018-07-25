@@ -34,7 +34,9 @@ a {
   height: 100vh;
   /* width:  100vw; */
   overflow-x: hidden;
+  margin-bottom: 5rem;
 }
+  #inktober .fill-browser-title { padding-bottom: 11rem; margin-bottom: 0;  }
 
 .zine-button {
   display: inline-block;
@@ -93,6 +95,7 @@ html {
   padding: 0;
   margin: 0; }
 
+.footer { position: relative; }
 .footer > * ~ * {
   margin-left: 1.5rem; }
   @media (max-width: 720px) {
@@ -249,6 +252,10 @@ html {
 
 #inktober header {
   display: none; }
+
+#inktober .main-content__preview-page {
+  box-shadow: 0 4px 18px 4px rgba(100,100,100,.25);
+}
 
 .inktober-flex-box {
   display: flex;

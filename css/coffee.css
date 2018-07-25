@@ -55,17 +55,7 @@
   transform: rotate(12deg);
   width: 3rem; }
 #coffee .main-content__intro {
-  position: relative;
-  margin-top: 40%;
-  margin-bottom: 10rem;
-  padding: 4rem;
-  max-width: 34em;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #f7f1de; }
-  #coffee .main-content__intro p {
-    font-weight: bold;
-    line-height: 1.5; }
 #coffee #coffee-thing-drip {
   width: 4.5rem;
   position: absolute;
@@ -108,5 +98,18 @@
   box-shadow: 0 4px 18px 4px rgba(96, 57, 19, 0.25); }
   .main-content__preview-page > img {
     margin-bottom: -4px; }
+
+.main-content__intro {
+  position: relative;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding: 4rem;
+  max-width: 34em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke; }
+  .main-content__intro p {
+    font-weight: bold;
+    line-height: 1.5; }
 
 /*# sourceMappingURL=coffee.css.map */

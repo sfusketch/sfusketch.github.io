@@ -85,20 +85,7 @@ $raw: #f7f1de;
   }
 
   .main-content__intro {
-    position: relative;
-    margin-top: 40%;
-    margin-bottom: 10rem;
-    padding: 4rem;
-    max-width: 34em;
-    margin-left: auto;
-    margin-right: auto;
     background-color: $raw;
-    // box-shadow: 0 4px 18px 4px rgba($darkblend, .15);
-
-    p { 
-      font-weight: bold; 
-      line-height: 1.5;
-    }
   }
 
   #coffee-thing-drip {
@@ -159,5 +146,22 @@ $raw: #f7f1de;
 
   > img {
     margin-bottom: -4px; // fix some weird thing in the browser adding a white edge
+  }
+}
+
+.main-content__intro {
+  position: relative;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding: 4rem;
+  max-width: 34em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(245,245,245, 1);
+  // box-shadow: 0 4px 18px 4px rgba($darkblend, .15);
+
+  p { 
+    font-weight: bold; 
+    line-height: 1.5;
   }
 }
